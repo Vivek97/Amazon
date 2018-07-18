@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test name="IETest">
+  <!--   <parameter name="myBrowser" value="IE"/> -->
+    <classes>
+ 	  <class name="com.amazon.test.AmazonTest1"/>
+ 	    <class name="com.amazon.test.Solution"/>
+ 	  <!--   <class name="com.amazon.test.AmazonTest2"/>  -->
+    </classes>
+  </test>  
+ <!--     <test name="fireFoxTest">
+    <parameter name="myBrowser" value="firefox"/> 
+    <classes>
+ 	  <class name="com.amazon.test.AmazonTest1"/>
+	   <class name="com.amazon.test.AmazonTest2"/> 
+    </classes>
+  </test> -->
+</suite> <!-- Failed suite [Default suite] -->
