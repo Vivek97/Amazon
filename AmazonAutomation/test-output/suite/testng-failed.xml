@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="fireFoxTest(failed)" parallel="classes">
+    <classes>
+      <class name="com.amazon.test.AmazonTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="method1"/>
+          <include name="getStart"/>
+        </methods>
+      </class> <!-- com.amazon.test.AmazonTest1 -->
+    </classes>
+  </test> <!-- fireFoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
